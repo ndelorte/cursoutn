@@ -34,7 +34,45 @@
         <p>Mis intereses a futuro son poder trabajar en el area que estudio (sistemas) para poder ir sumando experiencia y poder desarrollarme.</p>
         <p>En el ambito laboral me considero una persona exigente que intenta hacer siempre las cosas de la mejor manera, siempre aprendiendo e informandome sobre lo que ejerzo. </p>
 
-    <h4>Si queres contactarme podes hacerlo a través de este <a href="">formulario</a></h4>
+    <h4>Si queres contactarme podes hacerlo a través de este formulario</h4>
+    <form action="">
+        <p>
+            <label for="nom">Nombre</label>
+            <input type="text" name="nombre" placeholder="Nombre">
+        </p>
+        <p>
+            <label for="ape">Apellido</label>
+            <input type="text" name="apellido" placeholder="Apellido">
+        </p>
+        <p>
+            <label for="emp">Empresa</label>
+            <input type="text" name="empresa">
+        </p>
+        <p>
+            <label for="tipotra">Tipo trabajo</label>
+            <ul>
+                <li>
+                    <input type="radio" name="tipotra" value="part">
+                    <label>Part Time</label>
+                </li>
+                <li>
+                    <input type="radio" name="tipotrabajo" value="full">
+                    <label>Full Time</label>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <label for="mail">Email de contacto</label>
+            <input type="email" name="mail" placeholder="nombre@ejemplo.com">
+        </p>
+        <p>
+            <label for="coment">Comentarios</label>
+            <input type="text" name="comentarios">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
 
 </body>
 </html>
